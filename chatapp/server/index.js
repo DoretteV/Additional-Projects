@@ -30,6 +30,3 @@ io.on('connection', (socket) => {
     })
 });
 
-httpServer.listen(PORT, () => {
-    console.log("Server is running at http://localhost:4000")
-});
