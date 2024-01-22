@@ -11,7 +11,7 @@ import Typography from "@mui/material/Typography";
 import { useEffect, useRef, useState } from "react";
 import { useNavigate, useOutletContext, useParams } from "react-router-dom";
 
-export default function chatWindow() {
+export default function ChatWindow() {
   const { socket } = useOutletContext();
   const [message, setMessage] = useState("");
   const [chat, setChat] = useState([]);
